@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* CSS HEX color code*/
+--chinook: #9fedb5;
+--bunting: #151948;
+--athens-gray: #f4f4f6;
+--mischka: #d7d8e1;
+--tosca: #903d42;
+--santas-gray: #a2a2b5;
+--alpine: #b0a034;
+--breaker-bay: #6ba1a8;
+--gimblet: #bdb678;
+/*CSS rules to specify families*/
+
+--font-poppins: 'Poppins', sans-serif;
+
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: var(--font-poppins);
+}
+
+
+.form__container{
+    width: 100%;
+    
+}
+
+.form__container__warpper{
+    width: 100%;
+   min-height: 100vh;
+   
+    display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+    
+}
+
+
+
+.form__card__container{
+   width: 320px;
+   max-width: 600px;
+   height: auto;
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: var(--chinook);
+  border-radius: 0.3rem;
+}
+
+
+
+.form__card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    padding: 1rem;
+    
+   }
+   
+.text__form{
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    color: var(--bunting);
+}
+
+.input{
+    width: 100%;
+    height: 40px;
+    border-radius: 0.3rem;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    margin: 5px auto;
+    
+} 
+
+.input__card{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 0.5rem;
+}  
+   
+   
+.text__break{
+    font-weight: 500;
+    font-size: 0.8rem;
+    
+}   
+   
+.form__button__login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    padding: 1rem;
+}   
+   
+   
+   
+
+.img__icon{
+    width: 25px;
+    height: 25px;
+    
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    text-transform: capitalize;
+    border-radius: 0.2rem;
+    gap:8px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    
+}
+
+
+.btn__login{
+    background-color:#151948;
+    color: var(--mischka);
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.btn__google ,.btn__microsoft , .btn__apple{
+    padding: 1.5rem;
+    font-size: 0.8rem;
+    align-self: center;
+    color: var(--bunting);
+    background: #ffffff;
+}
+
+.text__content{
+    align-self: center;
+    font-size: 0.7rem;
+    
+}
+
+.text__content a{
+    text-decoration: none;
+    color:#000000;
+}
+
+
+.input__card::placeholder{
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    padding-left: 0.6rem;
+}
